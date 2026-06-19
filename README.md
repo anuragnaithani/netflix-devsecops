@@ -1,142 +1,206 @@
-# Netflix DevSecOps Project
+# 🎬 Netflix DevSecOps Project
 
-## Project Overview
-
-This project demonstrates the implementation of a complete DevSecOps workflow for deploying and securing a Netflix-style web application. The objective of this project is to automate application delivery, integrate security scanning into the CI/CD pipeline, and monitor the deployed application using industry-standard DevOps tools.
-
-The project includes source code management, continuous integration, security testing, containerization, monitoring, and Kubernetes-based deployment.
+A complete end-to-end **DevSecOps pipeline** built for a Netflix-style web application using industry-standard tools and AWS cloud services. This project demonstrates CI/CD automation, security scanning, GitOps deployment, Kubernetes orchestration, and monitoring.
 
 ---
 
-## Project Objectives
+## 🚀 Project Overview
 
-* Automate application deployment using Jenkins
-* Perform code quality analysis using SonarQube
-* Identify vulnerable dependencies using OWASP Dependency Check
-* Scan containers using Trivy
-* Containerize the application using Docker
-* Deploy workloads using Kubernetes
-* Implement GitOps practices using ArgoCD
-* Monitor infrastructure and application metrics using Prometheus and Grafana
-* Build a production-style DevSecOps workflow
+This project implements a complete DevSecOps workflow from source code to production deployment. The pipeline integrates security and monitoring at every stage to simulate a production-ready environment.
+
+### Key Features
+
+- ✅ CI/CD Automation using Jenkins
+- ✅ Static Code Analysis with SonarQube
+- ✅ Vulnerability Scanning using OWASP Dependency Check
+- ✅ Container Security with Trivy
+- ✅ Docker Image Build & Push
+- ✅ Kubernetes Deployment on Amazon EKS
+- ✅ GitOps Deployment with ArgoCD
+- ✅ Monitoring with Prometheus & Grafana
+- ✅ Production-style DevSecOps Architecture
 
 ---
 
-## Project Architecture
+# 🏗️ Project Architecture
 
+```text
 GitHub Repository
-
-↓
-
+        │
+        ▼
 Jenkins CI/CD Pipeline
-
-↓
-
+        │
+        ▼
 SonarQube Analysis
-
-↓
-
+        │
+        ▼
 OWASP Dependency Check
-
-↓
-
+        │
+        ▼
 Trivy Security Scan
-
-↓
-
+        │
+        ▼
 Docker Image Build
-
-↓
-
-Container Registry
-
-↓
-
-Kubernetes Deployment
-
-↓
-
+        │
+        ▼
+Docker Hub Registry
+        │
+        ▼
+ArgoCD (GitOps)
+        │
+        ▼
+Amazon EKS Cluster
+        │
+        ▼
+Netflix Application
+        │
+        ▼
 Prometheus Monitoring
-
-↓
-
+        │
+        ▼
 Grafana Dashboard
+```
 
 ---
 
-## Technologies Used
+# 🛠 Technologies Used
 
-* React
-* Vite
-* Docker
-* Jenkins
-* SonarQube
-* OWASP Dependency Check
-* Trivy
-* Kubernetes
-* ArgoCD
-* Prometheus
-* Grafana
-* AWS EC2
-* AWS EKS
+| Category | Tools |
+|------------|-------|
+| Frontend | React, Vite |
+| CI/CD | Jenkins |
+| Code Quality | SonarQube |
+| Dependency Scanning | OWASP Dependency Check |
+| Container Security | Trivy |
+| Containerization | Docker |
+| Container Registry | Docker Hub |
+| Orchestration | Kubernetes |
+| GitOps | ArgoCD |
+| Monitoring | Prometheus, Grafana |
+| Cloud | AWS EC2, AWS EKS |
 
 ---
 
-## Deployment Workflow
+# ⚙️ CI/CD Workflow
 
 ### Infrastructure Setup
 
-* Launch Ubuntu EC2 instance
-* Configure Docker and required dependencies
-* Clone application repository
-* Build and run application containers
+- Launch Ubuntu EC2 Instances
+- Configure Docker and dependencies
+- Clone application repository
+- Build and run containers
 
 ### Security Integration
 
-* Configure SonarQube for static code analysis
-* Integrate OWASP Dependency Check
-* Perform filesystem and container image scanning using Trivy
+- SonarQube Static Code Analysis
+- OWASP Dependency Check
+- Trivy Filesystem Scan
+- Trivy Image Scan
 
 ### CI/CD Automation
 
-* Configure Jenkins pipeline
-* Automate build, scan, and deployment stages
-* Manage Docker image creation and publishing
+- Jenkins Pipeline
+- Docker Build and Push
+- Automated Deployment
 
-### Monitoring and Observability
+### Monitoring & Observability
 
-* Install Prometheus
-* Configure Node Exporter
-* Visualize metrics using Grafana dashboards
+- Prometheus
+- Node Exporter
+- Grafana Dashboards
 
 ### Kubernetes Deployment
 
-* Deploy application resources using Kubernetes manifests
-* Configure services and ingress resources
-* Manage deployments using GitOps workflows
+- Amazon EKS Cluster
+- Kubernetes Manifests
+- ArgoCD GitOps Deployment
 
 ---
 
-## Learning Outcomes
+# 📸 Project Screenshots
 
-Through this project I gained hands-on experience in:
+## 1. Jenkins Pipeline Success
 
-* CI/CD Pipeline Design
-* DevSecOps Practices
-* Container Security
-* Docker and Kubernetes
-* Infrastructure Monitoring
-* GitOps Deployment Strategy
-* Cloud Deployment on AWS
+![Jenkins Pipeline](screenshots/01-jenkins-pipeline-success.png)
 
 ---
 
-## Author
+## 2. SonarQube Dashboard
 
-Anurag Naithani
+![SonarQube Dashboard](screenshots/02-sonarqube-dashboard.png)
 
-GitHub:
+---
+
+## 3. Docker Hub Repository
+
+![DockerHub Repository](screenshots/03-dockerhub-repository.png)
+
+---
+
+## 4. Prometheus Targets
+
+![Prometheus Targets](screenshots/04-prometheus-targets.png)
+
+---
+
+## 5. Grafana Dashboard
+
+![Grafana Dashboard](screenshots/05-grafana-dashboard.png)
+
+---
+
+## 6. Amazon EKS Cluster
+
+![EKS Cluster](screenshots/06-eks-cluster-active.png)
+
+---
+
+## 7. ArgoCD Healthy & Synced
+
+![ArgoCD](screenshots/07-argocd-healthy-synced.png)
+
+---
+
+## 8. Kubernetes Worker Node
+
+![Kubectl Nodes](screenshots/08-kubectl-get-nodes.png)
+
+---
+
+## 9. Netflix Application Running
+
+![Netflix Application](screenshots/09-netflix-application-running.png)
+
+---
+
+# 📚 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- CI/CD Pipeline Design
+- DevSecOps Best Practices
+- Static Code Analysis
+- Container Security
+- Docker & Kubernetes
+- GitOps with ArgoCD
+- Infrastructure Monitoring
+- Cloud Deployment on AWS
+- Production-grade Deployment Strategy
+
+---
+
+# 👨‍💻 Author
+
+## Anurag Naithani
+
+### GitHub
+
 https://github.com/anuragnaithani
 
-LinkedIn:
+### LinkedIn
+
 https://www.linkedin.com/in/anurag-naithani/
+
+---
+
+# ⭐ If you found this project useful, consider giving it a star.
