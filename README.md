@@ -121,55 +121,55 @@ Grafana Dashboard
 
 ## 1. Jenkins Pipeline Success
 
-![Jenkins Pipeline](screenshots/01-jenkins-pipeline-success.png)
+![Jenkins Pipeline](Screenshots/01-jenkins-pipeline-success.png)
 
 ---
 
 ## 2. SonarQube Dashboard
 
-![SonarQube Dashboard](screenshots/02-sonarqube-dashboard.png)
+![SonarQube Dashboard](Screenshots/02-sonarqube-dashboard.png)
 
 ---
 
 ## 3. Docker Hub Repository
 
-![DockerHub Repository](screenshots/03-dockerhub-repository.png)
+![DockerHub Repository](Screenshots/03-dockerhub-repository.png)
 
 ---
 
 ## 4. Prometheus Targets
 
-![Prometheus Targets](screenshots/04-prometheus-targets.png)
+![Prometheus Targets](Screenshots/04-prometheus-targets.png)
 
 ---
 
 ## 5. Grafana Dashboard
 
-![Grafana Dashboard](screenshots/05-grafana-dashboard.png)
+![Grafana Dashboard](Screenshots/05-grafana-dashboard.png)
 
 ---
 
 ## 6. Amazon EKS Cluster
 
-![EKS Cluster](screenshots/06-eks-cluster-active.png)
+![EKS Cluster](Screenshots/06-eks-cluster-active.png)
 
 ---
 
 ## 7. ArgoCD Healthy & Synced
 
-![ArgoCD](screenshots/07-argocd-healthy-synced.png)
+![ArgoCD](Screenshots/07-argocd-healthy-synced.png)
 
 ---
 
 ## 8. Kubernetes Worker Node
 
-![Kubectl Nodes](screenshots/08-kubectl-get-nodes.png)
+![Kubectl Nodes](Screenshots/08-kubectl-get-nodes.png)
 
 ---
 
 ## 9. Netflix Application Running
 
-![Netflix Application](screenshots/09-netflix-application-running.png)
+![Netflix Application](Screenshots/09-netflix-application-running.png)
 
 ---
 
